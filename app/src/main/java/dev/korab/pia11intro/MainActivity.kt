@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         myText = findViewById<TextView>(R.id.fancyText)
 
-        myText.text = "Ännu mer ändringar"
+        myText.text = "Hej"
 
         findViewById<Button>(R.id.fancyButton).setOnClickListener {
 
